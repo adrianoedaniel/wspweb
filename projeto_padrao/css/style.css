@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200&display=swap');
+:root {
+    font-family: 'Lilita One', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(../img/fundo2.png);
+    background-size: cover; */
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-size: 2rem;
+    color:#DF0209;
+    position: relative;
+    z-index: 1;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    justify-content: center;
+}
+li{
+    padding: 2px;
+    margin: 10px;
+ }
+ a{
+    text-decoration: none;
+    color:#DF0209;
+    
+    
+ }
+ a:hover{
+    color: #d95a5a;
+    filter: drop-shadow(3px 3px 3px #a99d9d);
+}
+h3{
+    text-align: center;
+}
+.logo{
+    width: 400px;
+    padding: 25px;
+}
+.banner{
+    width: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+}
+.banner video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    
+}
+.div_um {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    background-color: #343434;
+    margin: 70px 50px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    filter: drop-shadow(3px 3px 3px #6b6868);
+}
+.div_um_dois {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    background-color:#BAB9BA;
+    border-radius: 100px;
+    filter: drop-shadow(3px 3px 3px #100f0f);
+}
+.div_um_dois a img {
+    width: 350px;
+       
+}  
